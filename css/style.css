@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: white;
+    padding: 22px 0;
+}
+
+.header-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 32px;
+    display: inline-block;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul li{
+    margin: 0px 32px 0 0;
+    transition: 0.3s;
+}
+
+header ul li:hover{
+    transform: scale(1.2);
+}
+
+header ul li:hover a{
+    color: red;
+}
+
+header nav li a{
+    font-size: 15px;
+    color: #1B1A1A;
+    display: inline-block;
+    text-decoration: none;
+}
+
+header ul li:nth-child(5) {
+    margin: 0 31px 0 0;
+}
+
+header ul li:last-of-type{
+    background-color: #1B1A1A;
+    margin: 0 32px 0 0;
+    padding: 11px 20px 11px 20px;
+    border-radius: 14px;
+}
+
+header ul li:last-of-type a{
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.about{
+    background-color: #ECE7E4;
+    padding-top: 137px;
+    padding-bottom: 128px;
+    background-image: url("../images/backgrounbanner.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.div-central-contant{
+    max-width: 1240px;
+    margin:auto
+}
+
+.container-text-width{
+    max-width: 509px;
+}
+
+.text-h3{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55; margin-bottom: 20px
+}
+
+.text-h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    color: #1B1A1A; margin-bottom: 18px;"
+}
+
+.p-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B; margin-bottom: 41px;
+}
+
+.read-more{
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+.information{
+    background-color: #CEC4BC;
+    padding-top: 100px;
+    padding-bottom: 117px;
+}
+
+.container-central-content{
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-width{
+    max-width: 569px;
+}
+
+.text-h3-second{
+    margin-bottom: 13px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+}
+
+.text-h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #1B1A1A;
+}
+
+.div-get-in-touch{
+    margin-top: 45px;
+}
+
+.div-get-in-touch-text{
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #1B1A1A;
+}
+
+footer{
+    background-color: #F7F7F7;
+    padding-top: 62px;
+    padding-bottom: 60px;
+}
+
+.footer-central-content{
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo{
+    margin-bottom: 20px;
+    display: inline-block;"
+}
+
+.footer-p{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #645C55;
+}
+
+.footer-p-a-first{
+    display: inline-block;
+    text-decoration: none;
+    color: #645C55;"
+}
+
+.footer-p-a-second{
+    display: inline-block;
+    text-decoration: none;
+    color: #645C55;
+    font-size: 13px;"
+}
+
+.social-media-logos{
+    display: flex;
+    list-style: none;
+}
+
+.twitter{
+    margin-top: 60px;
+    margin-bottom: 2px;
+}
+
+.instagram{
+    margin-top: 58px;
+    margin-left: 20px;
+}
+
+.facebook{
+    margin-top: 58px;
+    margin-left: 26px;
+}
