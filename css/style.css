@@ -28,7 +28,7 @@ header ul{
 }
 
 header ul li{
-    margin: 0px 32px 0 0;
+    margin: 0 32px 0 0;
     transition: 0.3s;
 }
 
@@ -245,7 +245,6 @@ footer{
 }
 
 .our-process .owl-carousel{
-    display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -305,3 +304,37 @@ footer{
     color: #645C55;
     max-width: 294px;
 }
+
+.owl-dots{
+
+}
+
+.owl-dot span{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: darkgray;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: 0.3ms;
+}
+
+.owl-dot.active span{
+    background: #645C55;
+    width: 12px;
+    height: 12px;
+    border-radius: 61%;
+}
+
+.owl-dot span:hover{
+    background: gray;
+}
+
+.owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: -16px;
+}
+
+
