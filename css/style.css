@@ -320,11 +320,11 @@ footer{
     background: #645C55;
     width: 12px;
     height: 12px;
-    border-radius: 61%;
+    border-radius: 60%;
 }
 
 .owl-dot span:hover{
-    background: gray;
+    background: red;
 }
 
 .owl-dots{
