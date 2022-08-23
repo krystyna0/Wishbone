@@ -305,7 +305,8 @@ footer{
     max-width: 294px;
 }
 
-.owl-dot span{
+.owl-dot span:before{
+    content: "";
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -316,7 +317,8 @@ footer{
     transition: 0.3ms;
 }
 
-.owl-dot.active span{
+.owl-dot.active span:before{
+    content: "";
     background: #645C55;
     width: 12px;
     height: 12px;
