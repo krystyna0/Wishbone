@@ -236,3 +236,72 @@ footer{
     margin-top: 58px;
     margin-left: 26px;
 }
+
+
+
+.our-process .container{
+    background-color: #E5E5E5;
+    padding: 100px 0 110px;
+}
+
+.our-process .owl-carousel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.our-process h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #645C55;
+    margin-bottom: 13px;
+}
+
+.our-process h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 42px;
+    text-align: center;
+    color: #1B1A1A;
+    margin-bottom: 47px;
+}
+
+.our-process a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: 102px;
+}
+
+.owl-carousel h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #403E3B;
+}
+
+.owl-carousel p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #645C55;
+    max-width: 294px;
+}
