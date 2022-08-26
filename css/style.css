@@ -410,19 +410,38 @@ ui-dialog .ui-dialog-titlebar-close {
     content: "\f00d";
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-    height: 15px;
+    height: 19px;
     width: 15px;
-    font-size: 15px;
+    font-size: 19px;
+    transition: 0.3ms;
 }
 
 .ui-icon{
     text-indent: 0 !important;
 }
 
+.ui-dialog .ui-dialog-titlebar-close {
+    right: 0.1em;
+    top: 25%;
+}
 
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
+    background-color: white;
+}
 
+.ui-button-icon-only .ui-icon {
+    top: 42%;
+    left: 55%;
+}
 
+.ui-dialog-title button:hover{
+    transform: scale(0.1%);
+}
 
+ui-dialog .ui-dialog-titlebar-close:active{
+    outline: none;
+    border: none;
+}
 
 
 
