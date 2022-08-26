@@ -415,6 +415,10 @@ ui-dialog .ui-dialog-titlebar-close {
     font-size: 15px;
 }
 
+.ui-icon{
+    text-indent: 0 !important;
+}
+
 
 
 
